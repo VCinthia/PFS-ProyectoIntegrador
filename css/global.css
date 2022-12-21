@@ -1,0 +1,45 @@
+:root {
+    /* fonts */
+    --font-advent-pro: "Advent Pro"; /*Barra menu + botones + Texto tarjetas 'como lo logramos'*/
+    --font-bodoni-moda: "Bodoni Moda"; /*Titulos*/
+    --font-averia-libre: "Averia Libre"; /*Numeros tarjetas 'como lo logramo's'*/
+    --font-reem-kufi-ink: "Reem Kufi Ink"; /*Secciones Footer*/
+    --font-rokkitt: "Rokkitt"; /*Cuerpo de secciones*/
+    --font-roboto: "Roboto", sans-serif;/*FORMS, buscar, sino usar advent-pro*/
+  
+    /* font sizes */
+    --font-size-base: 22px;
+    --font-size-sm: 20px;/*footer*/
+    --font-size-xl: 27.80px;
+    --font-size-lg: 25px;/*menu nav. superior + botones*/    
+    --font-size-titulos-secundarios: 64px;
+    --font-size-titulo-principal: 126px;
+
+    --font-size-textos-tarjetas: 16px;/*Textos tarjetas pequeñas*/
+    --font-size-numeros-tarjetas: 30.82px;/*Numeros tarjetas pequeñas*/
+    --font-size-logos: 50.56px;
+  
+    /* Colors */
+    --color-beige-100: #c4d9d0;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-teal: #33797f;
+    --color-orange-100: #d9a927;
+    --color-orange-200: rgba(255, 175, 86, 0.08);
+    --color-gray-100: #fafafa;
+    --color-gray-200: rgba(255, 255, 255, 0.05);
+  
+    /* Gaps */
+    --gap-0: 0px;
+  
+    /* Paddings */
+    --padding-xs: 15px;
+    --padding-sm: 35px;
+    --padding-md: 40px;
+  
+    /* border radiuses */
+    --br-xs: 15px;
+    --br-sm: 30px;
+    --br-md: 60px;
+    --br-lg: 160px;
+  }

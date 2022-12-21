@@ -1,0 +1,107 @@
+body {
+    background-color: var(--color-beige-100);
+    margin: 0;
+    line-height: normal;
+    font-family: var(--font-rokkitt);
+    font-size: var(--font-size-base);
+    margin: 20px;
+}
+.navbarweb {
+    display: flex;
+    font-family: var(--font-advent-pro);
+    font-size: var(--font-size-lg);
+    margin-bottom: 10px;
+    align-items: center;
+
+    justify-content: flex-end;
+}
+.navbarweb ul a {
+    padding: var(--padding-xs);
+    text-decoration: none;
+    color: var(--color-black);
+}
+#logo-principal {
+    display: inline;
+    justify-content: flex-start;
+}
+/*PORTADA*/
+
+.portada-nombre,
+.encuentra-div,
+.tu-mascota-div {
+    position: absolute;
+    font-size: var(--font-size-titulo-principal);
+    font-weight: 800;
+    font-family: var(--font-bodoni-moda);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.encuentra-div {
+    top: 266.49px;
+    left: 164.31px;
+    justify-content: center;
+    width: 681px;
+    height: 338px;
+}
+.tu-mascota-div {
+    top: 496.49px;
+    left: 579.31px;
+    text-align: right;
+    width: 831px;
+}
+
+.rectangle-icon,
+.rectangle-icon1,
+.rectangle-icon2{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    border-radius: var(--br-md);
+    width: 321px;
+    height: 324px;
+    /* object-fit: cover; */
+}
+.rectangle-icon1,
+.rectangle-icon2{
+    top: 600px;
+    left: 300px;
+    width: 321px;
+    height: 324px;
+}
+.rectangle-icon2{
+    top: 200px;
+    left: 730px;
+}
+
+/* footer{
+
+} */
+.frame-div10,
+.frame-div11,
+.frame-div12,
+.frame-div9 {
+    position: absolute;
+    display: flex;
+    text-align: left;
+    font-family: var(--font-reem-kufi-ink);
+}
+.frame-div10,
+  .frame-div11,
+  .frame-div12 {
+    top: 5205.56px;
+    left: 445.28px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-0);
+    font-size: var(--font-size-xl);
+  }
+  .frame-div11,
+  .frame-div12 {
+    top: 5205.49px;
+    left: 847.31px;
+  }
+  .frame-div12 {
+    left: 1217.31px;
+  }
