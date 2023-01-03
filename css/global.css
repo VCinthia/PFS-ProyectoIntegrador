@@ -12,8 +12,8 @@
     --font-size-sm: 20px;/*footer*/
     --font-size-xl: 27.80px;
     --font-size-lg: 25px;/*menu nav. superior + botones*/    
-    --font-size-titulos-secundarios: 64px;
-    --font-size-titulo-principal: 126px;
+    --font-size-titulos-secundarios: 50px;
+    --font-size-titulo-principal: 115px;
 
     --font-size-textos-tarjetas: 16px;/*Textos tarjetas pequeñas*/
     --font-size-numeros-tarjetas: 30.82px;/*Numeros tarjetas pequeñas*/
@@ -33,6 +33,7 @@
     --gap-0: 0px;
   
     /* Paddings */
+    --padding-xxs:8px;
     --padding-xs: 15px;
     --padding-sm: 35px;
     --padding-md: 40px;

@@ -21,41 +21,78 @@
 </head>
 
 <body>
+
     <!-- NAVBAR -->
-    <div class="navbarweb">
-        <!-- editar para que coincida con frame-div8 -->
-        <!-- <div href="#logo-principal" data-ancla="logo-principal" id="logo-principal" title="Grupo 5">
-            <img src="./resources/cil_animallogo.png" alt="">
-        </div> -->
-        <ul>
-            <a href="#inicio" data-ancla="inicio" id="inicio" title="Ir a Inicio">Inicio</a>
-            <a href="#sobre-nosotros" data-ancla="sobre-nosotros" id="sobre-nosotros" title="Ir a Sobre Nosotros">Sobre
-                Nosotros</a>
-            <a href="#consejos" data-ancla="consejos" id="consejos" title="Ir a Consejos">Consejos</a>
-            <a href="./views/reportar-perdida.html" id="reportar-perdida" title="Ir a Reportar Perdida">Reportar
-                Perdida</a>
-            <a href="./views/buscar-ahora.html" id="buscar-ahora" title="Ir a Busca ahora!">Busca ahora!</a>
-            <a class="login" href="./views/login.html" id="login" title="Login">Login</a>
-            <a class="registrarse" href="./views/login.html" id="registrarse" title="Registrarse">Registrarse</a>
+
+    <nav>
+        <div class="logo">
+            <img src="./resources/img/huella.png" alt="Huella">
+            <p class="logo-text">PROYECTO PFS</p>
+        </div>
+        <ul class="links">
+            <li><a href="#inicio" id="inicio" title="Ir a Inicio">Inicio</a></li>
+            <li><a href="#sobre-nosotros" id="sobre-nosotros" title="Ir a Sobre Nosotros">Sobre Nosotros</a></li>
+            <li><a href="#consejos" id="consejos" title="Ir a Consejos">Consejos</a></li>
+            <li><a href="./views/reportar-perdida.html" id="reportar-perdida" title="Ir a Reportar Perdida">Reportar Perdida</a></li>
+            <li><a href="./views/buscar-ahora.html" id="buscar-ahora" title="Ir a Busca ahora!">Busca ahora!</a></li>
+            <li><a class="login" href="./views/login.html" id="login" title="Login">Inicia Sesion</a></li>
+            <li><a class="registrarse" href="./views/login.html" id="registrarse" title="Registrarse">Registrarse</a></li>
         </ul>
-    </div>
+    </nav>
 
     <!-- SECCION PORTADA -->
+
     <div class="portada">
-        <div class="portada-nombre">
             <div class="encuentra-div">Encuentra</div>
             <div class="tu-mascota-div">Tu Mascota</div>
-        </div>
-        <div class="portada-img">
             <img class="rectangle-icon" alt="" src="./resources/img/rectangle-41@2x.png" />
             <img class="rectangle-icon1" alt="" src="./resources/img/rectangle-42@2x.png" />
             <img class="rectangle-icon2" alt="" src="./resources/img/rectangle-43@2x.png" />
+            <a href="#"><img src="./resources/img/flecha-hacia-abajo.png" alt="Flecha" class="flecha-hacia-abajo"></a>
+    </div>
+
+    <!-- QUEREMOS AYUDARTE -->
+
+    <div class="contenedor-ayuda">
+        <div class="contenedor-textos-ayuda">
+            <h2>Podemos ayudarte</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur enim similique ipsam qui id corporis, explicabo quas necessitatibus eveniet eum pariatur placeat delectus consectetur unde ipsum expedita nesciunt excepturi soluta!</p>
         </div>
+        <div class="carousel">
+            <div class="carousel-items">
+                <div class="carousel-item">
+                    <img src="./resources/img/rectangle-44@2x.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./resources/img/rectangle-45@2x.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./resources/img/rectangle-41@2x.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./resources/img/rectangle-42@2x.png" alt="">
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
     </div>
 
     <!-- QUE HACEMOS -->
 
-    <!-- QUEREMOS AYUDARTE -->
+    <div class="contenedor-nosotros">
+        <img src="./resources/img/rectangle-49@2x.png" alt="">
+        <div class="contenedor-textos-nosotros">
+            <h2>Que hacemos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere soluta aut nostrum, optio hic reiciendis unde esse, aspernatur accusantium nemo quidem corporis sequi deleniti excepturi tempora minima velit. Iste, necessitatibus.</p>
+            <div class="boton-nosotros">
+                <a href="#">Conocé sus historias</a>
+            </div>
+        </div>
+        <img src="./resources/img/rectangle-50@2x.png" alt="" class="perro">
+    </div>
 
     <!-- COMO LO LOGRAMOS -->
 
@@ -243,6 +280,7 @@
                 </a>
             </div>
         </footer>
+        <script src="./main.js"></script>
         <!-- <script src="./assets/js/fontawesome.all.min.js"></script> -->
 </body>
 

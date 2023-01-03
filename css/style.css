@@ -1,81 +1,236 @@
-*{margin: 0;
-padding: 0;}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
 body {
     background-color: var(--color-beige-100);
     margin: 0;
     line-height: normal;
     font-family: var(--font-rokkitt);
-    font-size: var(--font-size-base);
-    margin: 20px;
 }
-.navbarweb {
-    display: flex;
-    font-family: var(--font-advent-pro);
-    font-size: var(--font-size-lg);
-    margin-bottom: 10px;
-    align-items: center;
 
-    justify-content: flex-end;
+/*NAV*/
+
+nav{
+    height: 90px;
+    background-color: var(--color-beige-100);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+    width: 100%;
 }
-.navbarweb ul a {
-    padding: var(--padding-xs);
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo img{
+    width: 60px;  
+}
+
+nav .logo p{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--font-advent-pro);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: #000;
     text-decoration: none;
-    color: var(--color-black);
+    font-family: var(--font-advent-pro);
+    font-size: 17px;
 }
-#logo-principal {
-    display: inline;
-    justify-content: flex-start;
+
+#login{
+    margin-left: 120px;
 }
+
+#registrarse{
+    background-color: var(--color-orange-100);
+    padding: var( --padding-xxs);
+    border-radius: var( --br-xs);
+}
+
 /*PORTADA*/
 
-.portada-nombre,
+.portada{
+    height: 50rem;
+}
+
 .encuentra-div,
 .tu-mascota-div {
-    position: absolute;
     font-size: var(--font-size-titulo-principal);
-    font-weight: 800;
-    font-family: var(--font-bodoni-moda);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-family: var(--font-bodoni-moda); 
 }
+
 .encuentra-div {
-    top: 266.49px;
-    left: 164.31px;
-    justify-content: center;
-    width: 681px;
-    height: 338px;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    z-index: 1;
 }
+
 .tu-mascota-div {
-    top: 496.49px;
-    left: 579.31px;
-    text-align: right;
-    width: 831px;
-}
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    z-index: 1;
+} 
 
 .rectangle-icon,
 .rectangle-icon1,
 .rectangle-icon2{
+    width: 20rem;
+}
+
+.rectangle-icon{
     position: absolute;
-    top: 150px;
-    left: 60px;
-    border-radius: var(--br-md);
-    width: 321px;
-    height: 324px;
-    /* object-fit: cover; */
+    top:20%;
+    left: 45%;
 }
-.rectangle-icon1,
+
+.rectangle-icon1{
+    position: absolute;
+    top:55%;
+    left: 15%;  
+}
+
 .rectangle-icon2{
-    top: 600px;
-    left: 300px;
-    width: 321px;
-    height: 324px;
+    position: absolute;
+    top: 85%;
+    left: 56%;
 }
-.rectangle-icon2{
-    top: 200px;
-    left: 730px;
+
+.flecha-hacia-abajo{
+    position: absolute;
+    top: 80%;
+    left: 5%;
 }
+
+/*PODEMOS AYUDARTE*/
+
+.contenedor-ayuda{
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-md);
+    align-items: center;
+    background-color: #fff;
+    margin-top: 5rem;
+}
+
+.contenedor-textos-ayuda{
+    width: 30rem;
+}
+
+.contenedor-textos-ayuda h2{
+    font-family: var(--font-bodoni-moda); 
+    margin-bottom: 2rem;
+    font-size: var(--font-size-titulos-secundarios);
+}
+
+.contenedor-textos-ayuda p{
+    font-size: var(--font-size-base);
+}
+
+.carousel{
+    width: 20rem;
+}
+
+.carousel-items{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.carousel-item{
+    min-width: 300px;
+    max-width: 300px;
+    height: 300px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+
+/*QUE HACEMOS*/
+
+.contenedor-nosotros{
+    display: flex;
+    padding: var(--padding-md);
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 40rem;
+}
+
+.contenedor-textos-nosotros{
+    width: 30rem;
+    margin-left: 2rem;
+}
+
+.contenedor-textos-nosotros h2{
+    font-family: var(--font-bodoni-moda); 
+    margin-bottom: 2rem;
+    font-size: var(--font-size-titulos-secundarios);
+}
+
+.contenedor-textos-nosotros p{
+    margin-bottom: 5rem;
+    font-size: var(--font-size-base);
+}
+
+.contenedor-textos-nosotros a{
+    background-color: var(--color-teal);
+    padding: 0.7rem;
+    text-decoration: none;
+    color: var(--color-white);
+    border-radius: var( --br-xs);
+    font-family: var(--font-advent-pro);
+}
+
+.boton-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-nosotros img{
+    width: 300px;
+    height: 350px;
+    object-fit: contain;
+}
+
+.contenedor-nosotros img:first-child{
+    position: relative;
+    top: -110px;
+}
+
+.contenedor-nosotros .perro{
+    position: relative;
+    top: 90px;  
+}
+
+
+
+
+
+
 
 /* footer{
 
@@ -108,3 +263,5 @@ body {
   .frame-div12 {
     left: 1217.31px;
   }
+
+
